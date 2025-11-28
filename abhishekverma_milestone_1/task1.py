@@ -51,7 +51,7 @@ print(df.head())
 
 # 7. Save Cleaned Dataset
 
-cleaned_csv = "cleaned_forest_fire_dataset.csv"
+cleaned_csv = "FWI-Prediction/abhishekverma_milestone_1/cleaned_forest_fire_dataset.csv"
 df.to_csv(cleaned_csv, index=False)
 print(f"\nCleaned CSV Saved as: {cleaned_csv}")
 
