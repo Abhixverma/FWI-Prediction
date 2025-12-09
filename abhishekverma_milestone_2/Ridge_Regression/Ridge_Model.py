@@ -89,7 +89,7 @@ best_alpha = alphas[np.argmin(mse_test_list)]
 print("\nBest Alpha =", best_alpha)
 best_model = ridge_models[best_alpha]
 
-#  Ridge Plots (Train Only):
+#  Ridge Plots:
 plt.plot(alphas, mse_train_list, marker='o', label="Train MSE")
 plt.plot(alphas, mse_test_list, marker='o', label="test MSE")
 plt.xscale("log")
